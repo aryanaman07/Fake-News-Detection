@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/static/Logo.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Fake News Detection</title>
+  </head>
+  <body class="bg-gray-200">
+    <header class="text-gray-600 body-font -my-8">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="/static/Logo.png" height="10px" width="50px">
+            <span class="ml-3 text-xl">Fake News Detection</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="#Home" class="mr-5 hover:text-gray-900">Home</a>
+            <a href="#About" class="mr-5 hover:text-gray-900">About us</a>
+            <a href="/prediction" class="mr-5 hover:text-gray-900">prediction</a>
+            <a href="#Contact us" class="mr-5 hover:text-gray-900">contact us</a>
+          </nav>
+        </div>
+      </header><hr>
+      <section id="Home" class="text-gray-600 body-font -my-8">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Machine Learning Model
+              <br class="hidden lg:inline-block">Verify this!
+              <br class="hidden lg:inline-block">Fact-check it!
+            </h1>
+            <p class="mb-8 leading-relaxed">Welcome to our platform! We're not just another site; we're the ultimate destroyer of fake news monsters. Visit us, explore our predictions, and fact-check them for yourself.</p>
+            <div class="flex justify-center">
+              <a href="/prediction"><button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">prediction</button></a>
+              
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="/static/image.svg">
+          </div>
+        </div>
+      </section>
+      <section id="About" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
+              <div class="h-1 w-20 bg-green-500 rounded"></div>
+            </div>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500"></p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img src="/static/My photo.jpg" style="border-radius: 10px; box-sizing:border-box; padding-bottom: 10px;" alt="Photo">
+                <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Web Developer</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Neeraj Kumar</h2>
+                <p class="leading-relaxed text-base">Turning pixels into possibilities, code into experiences, and ideas into interactive realities.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img src="/static/Hridya.jpg" style="border-radius: 10px; box-sizing:border-box; padding-bottom: 10px;" alt="Photo">
+                <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Data Analyst</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Hridayanand Gupta</h2>
+                <p class="leading-relaxed text-base">Unlocking the stories hidden within data, and guiding decisions with clarity in a world of complexity.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img src="/static/Aryan.jpg" style="border-radius: 10px; box-sizing:border-box; padding-bottom: 10px;" alt="Photo">
+                <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Backend Developer</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Aryan Aman</h2>
+                <p class="leading-relaxed text-base">Backend developers: Crafting the backbone of digital innovation.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img src="/static/Dev.jpg" style="border-radius: 10px; box-sizing:border-box; padding-bottom: 10px;" alt="Photo">
+                <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Frontend Developer</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dev Diwakar</h2>
+                <p class="leading-relaxed text-base">Transforming visions into interactive realities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font -my-8">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">As a student navigating through the vast sea of information online, it's been incredibly reassuring to have stumbled upon this fake news detection website. It's become my go-to tool for verifying the accuracy of articles and news stories before citing them in my research papers. Thanks to its reliable fact-checking feature, I can confidently discern between trustworthy sources and those spreading misinformation.</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="/static/WhatsApp Image 2024-03-19 at 2.43.53 PM (1).jpeg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Anish Sarkar</span>
+                    <span class="text-gray-500 text-sm">PUBLIC SPEAKER</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">Critical thinking and discernment are essential skills, especially in today's digital age flooded with fake news. This fake news detection website has been a game-changer for me. Not only does it provide quick and accurate fact-checking services, but it also equips me with the knowledge and tools to spot falsehoods on my own. It's become an indispensable resource for ensuring the credibility of the information I consume and share with others.</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="/static/WhatsApp Image 2024-03-19 at 2.43.53 PM.jpeg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Kajal Kumari</span>
+                    <span class="text-gray-500 text-sm">DATA ANALYST</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="text-gray-600 body-font -my-8">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">It's time to dive into some mind-boggling fake news and fascinating facts!
+            <br class="hidden sm:block">Check this!
+          </h1>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+            <div class="p-4 md:w-1/3 flex">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4 flex-shrink-0">
+                
+              </div>
+              <div class="flex-grow pl-6">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Pizzagate Conspiracy</h2>
+                <p class="leading-relaxed text-base">This conspiracy theory claimed that a Washington, D.C. pizza restaurant was a front for a child trafficking ring involving high-ranking officials of the Democratic Party. Fact: Investigations found no evidence to support these claims, and the theory was debunked as entirely baseless.</p>
+               
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 flex">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4 flex-shrink-0">
+               
+              </div>
+              <div class="flex-grow pl-6">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">5G Coronavirus Conspiracy</h2>
+                <p class="leading-relaxed text-base">Some claimed that the rollout of 5G technology was linked to the spread of the coronavirus pandemic. Fact: Scientists and health experts confirmed that there is no connection between 5G technology and the virus. COVID-19 is caused by the novel coronavirus, SARS-CoV-2, which is spread through respiratory droplets.</p>
+                
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 flex">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4 flex-shrink-0">
+                
+              </div>
+              <div class="flex-grow pl-6">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Finland Doesn't Exist</h2>
+                <p class="leading-relaxed text-base">This conspiracy theory suggests that the country of Finland is not real and is actually a hoax perpetrated by the Japanese and Russian governments. Despite its absurdity, the theory gained a following online and even has its subreddit dedicated to discussing it.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="text-gray-600 body-font -my-8">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+           
+            </div>
+          </div>
+        </div>
+        <section id="Contact us" class="text-gray-600 body-font">
+          <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+              <img class="object-cover object-center rounded" style="position: relative; bottom: 50px;" alt="hero" src="/static/Contact.png">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 75px; font-style:var(stroke-linecap);">Contact Us
+              </h1> <br>
+              <span style="font-size: large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
+                <i class="fa fa-phone" style="color: #067604;"></i> Phone - (+91) 7743080597 <br>
+                <i class="fa fa-envelope" style="color: #067604;"></i> Mail - neerajrajput3278@gmail.com <br>
+                <i class="fa fa-whatsapp" style="color: #067604;"></i> WhatsApp - (+91) 83180 92027
+              </span> <br>
+              
+              <p class="mb-8 leading-relaxed" style="color: rgb(2, 89, 2); font-size: large; font-style: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Have something on your mind? Contact us and we'll be happy to assist.</p>
+              <div class="flex justify-center">
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="bg-gray-100">
+          <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <img src="/static/Logo.png" width="30px" height="40px" alt="Logo
+              <span class="ml-3 text-xl">Fake News Detection</span>
+              <img src="/static/arrow.jpg" onclick="window.location.href = '#Home'"; width="70px" height="70px" style="position: relative; left: 67vw;" alt="arrow">
+            </a>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
