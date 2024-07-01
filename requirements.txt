@@ -81,13 +81,13 @@ python-dateutil==2.8.2
 python-json-logger==2.0.7
 # pytz==2023.3.post1 #######
 # pywin32==306
-pywinpty==2.0.12
-PyYAML==6.0.1
-pyzmq==25.1.1
-qtconsole==5.4.4
-QtPy==2.4.0
-referencing==0.30.2
-regex==2023.12.25
+# pywinpty==2.0.12
+# PyYAML==6.0.1
+# pyzmq==25.1.1
+# qtconsole==5.4.4
+# QtPy==2.4.0
+# referencing==0.30.2
+# regex==2023.12.25
 requests==2.31.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
