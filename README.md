@@ -5,5 +5,6 @@
 ## Project Overview
  Fake news often has the aim of damaging the reputation of a person or entity , or making money through advertising revenue. However, false news has always been spread throughout history.
  Fake news has become a significant issue in today’s digital age, where information spreads rapidly through various online platforms. This project leverages machine learning algorithms to automatically determine the authenticity of news articles, providing a valuable tool to combat misinformation.
- **So question is how will you detect fake news?**
+
+**So question is how will you detect fake news?**
 **The answer is by Python. By practicing this advanced Python project of detecting fake news, you will easily make a difference between real and fake news.**
